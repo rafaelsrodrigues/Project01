@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+	background: #E5E5E5;
+    font-family: "Nunito", "Inter";
+}
+
+.main{
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 330px auto;
+    width: 620px;
+    height: 763px;
+    background: #FFFFFF;
+    border-radius: 20px; 
+    border: 1px solid #000000;
+}
+
+.img {
+    display:block;
+    max-width: 960px;
+    margin:0 100%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#img{
+    width: 213px;
+    height: 124px;
+}
+
+.title{
+    display: block;
+    max-width: 960px;
+    margin:0 auto;
+}
+.title h1 {
+    color: #111111;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 24px;
+}
+
+form{
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Teste transformei as div form-group em form-campoespecífico*/
+.form-name{
+    display: block;
+    margin-top: 30px;
+    margin-left: 45px;
+    margin-right: 60px;
+}
+.form-name label{
+    display: block;
+}
+
+.form-email{
+    display: inline-block;
+    margin-top: 52px;
+    margin-right: 24px;
+    margin-left: 45px;
+}
+
+.form-email label{
+    display: block;
+}
+
+
+.form-phone{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.form-phone label{
+    display: block;
+}
+
+.form-password{
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 24px;
+    margin-left: 45px;
+}
+
+.form-password label{
+    display: block;
+}
+
+.form-age{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.form-age label{
+    display: block;
+}
+
+.form-checkbox{
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 60px;
+    margin-right: 226px;
+}
+
+.form label{
+    color:#767676;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 10px auto;
+}
+
+.button-register{
+    color: #FFFFFF;
+    background-color:#0DBDBD;
+    cursor: pointer;
+    width: 81px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.large-field{
+    border: 2px solid #AAAAAA;
+    border-radius: 4px;
+    width: 515px;
+    height: 40px;
+}
+
+.medium-field{
+    border: 2px solid #AAAAAA;
+    border-radius: 4px;
+    width: 330px;
+    height: 40px;
+}
+
+.small-field{
+    border: 2px solid #AAAAAA;
+    border-radius: 4px;
+    width: 162px;
+    height: 40px;
+}
+
