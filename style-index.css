@@ -160,3 +160,13 @@ form{
     height: 40px;
 }
 
+
+.error-form{
+    color:#FF4B4B;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 5px auto;
+}
