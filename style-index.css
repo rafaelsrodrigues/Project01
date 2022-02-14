@@ -8,22 +8,21 @@ body{
 }
 
 .main{
-    max-width: 960px;
+    max-width: 650px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 330px auto;
+    margin: 280px auto;
     width: 620px;
     height: 763px;
     background: #FFFFFF;
     border-radius: 20px; 
-    border: 1px solid #000000;
 }
 
 .img {
     display:block;
-    max-width: 960px;
+    max-width: 650px;
     margin:0 100%;
     margin-top: 30px;
     margin-bottom: 15px;
@@ -36,7 +35,7 @@ body{
 
 .title{
     display: block;
-    max-width: 960px;
+    max-width: 650px;
     margin:0 auto;
 }
 .title h1 {
@@ -49,14 +48,13 @@ body{
 }
 
 form{
-    max-width: 960px;
+    max-width: 650px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
-/*Teste transformei as div form-group em form-campoespecífico*/
 .form-name{
     display: block;
     margin-top: 30px;
@@ -113,6 +111,7 @@ form{
     margin-left: 45px;
     margin-top: 60px;
     margin-right: 226px;
+    
 }
 
 .form label{
@@ -137,6 +136,7 @@ form{
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
+    border-color: transparent;
 }
 
 .large-field{
@@ -169,4 +169,166 @@ form{
     font-size: 14px;
     line-height: 16px;
     margin: 5px auto;
+}
+
+input[type="date"]::-webkit-datetime-edit-fields-wrapper{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+}
+
+@media screen and (max-width: 650px) {
+
+    body{
+        background: #ffffff;
+        font-family: "Nunito", "Inter";
+    }
+
+    .main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    height: 612px;
+    background: #ffffff;
+    }
+
+    .img {
+        display:block;
+        margin:0 auto;
+    }
+
+    .title{
+        display: block;
+        margin:0 auto;
+    }
+
+
+
+    .large-field{
+        border: 2px solid #AAAAAA;
+        border-radius: 4px;
+        width: 322px;
+        height: 40px;
+    }
+    
+    .medium-field{
+        border: 2px solid #AAAAAA;
+        border-radius: 4px;
+        width: 322px;
+        height: 40px;
+    }
+    
+    .small-field{
+        border: 2px solid #AAAAAA;
+        border-radius: 4px;
+        width: 160px;
+        height: 40px;
+    }
+
+
+    form{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .form-name{
+        display: inline-block;
+        margin: 10px 0;
+        margin-left: 30px;
+        align-self: center;
+    }
+    .form-name label{
+        display: block;
+    }
+
+
+    .form-email{
+        display: inline-block;
+        margin: 10px 0;
+        margin-left: 30px;
+        align-self: center;
+    }
+    
+    .form-email label{
+        display: block;
+    }
+
+
+    .form-password{
+        display: inline-block;
+        margin: 10px 0;
+        margin-left: 30px;
+        align-self: center;
+    }
+    
+    .form-password label{
+        display: block;
+    }
+
+    .form-age{
+        display: inline-block;
+        margin: 10px 0;
+        margin-left: 30px;
+        align-self: center;
+    }
+    
+    .form-age label{
+        display: block;
+    }
+    .form-phone{
+        display: inline-block;
+        margin: 10px 0;
+        margin-left: 30px;
+        align-self: center;
+    }
+    
+    .form-phone label{
+        display: block;
+    }
+
+    .form-checkbox{
+        display: block;
+        margin: 10px 0;
+        margin-left: 30px;
+        
+    }
+
+    .button-register{
+        color: #FFFFFF;
+        background-color:#0DBDBD;
+        cursor: pointer;
+        width: 332px;
+        height: 56px;
+        border-radius: 10px;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        margin: 10px 0;
+        margin-left:20px;
+        margin-bottom: 20px;
+        border-color: transparent;
+    }
+
+    
+    .form-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+      }
+      .form-container :nth-child(1) { order: 1; }
+      .form-container :nth-child(2) { order: 2; }
+      .form-container :nth-child(3) { order: 5; }
+      .form-container :nth-child(4) { order: 3; }
+      .form-container :nth-child(5) { order: 5; }
+      .form-container :nth-child(6) { order: 6; }
+      .form-container :nth-child(7) { order: 7; }
+
 }
