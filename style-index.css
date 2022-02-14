@@ -170,3 +170,9 @@ form{
     line-height: 16px;
     margin: 5px auto;
 }
+
+input[type="date"]::-webkit-datetime-edit-fields-wrapper{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+}
