@@ -64,4 +64,46 @@ body{
     font-size: 36px;
     line-height: 18px;
     margin: 30px auto;
+    border-color: transparent;
+}
+
+@media screen and (max-width: 650px) {
+
+    body{
+        background: #ffffff;
+        font-family: "Nunito", "Inter";
+    }
+
+    .sucess{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 375px;
+        height: 612px;
+        background: #FFFFFF;
+    }
+
+    .img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5px;
+    }
+
+    .button-back{
+        color: #FFFFFF;
+        background-color:#0DBDBD;
+        cursor: pointer;
+        width: 327px;
+        height: 75px;
+        border-radius: 10px;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 18px;
+        margin: 30px auto;
+        border-color: transparent;
+    }
 }
